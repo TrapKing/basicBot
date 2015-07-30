@@ -299,7 +299,7 @@
             rulesLink: null,
             themeLink: null,
             fbLink: null,
-            youtubeLink: null,
+            youtubeLink: https://www.youtube.com/c/KidBass,
             website: null,
             intervalMessages: [],
             messageInterval: 5,
