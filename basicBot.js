@@ -238,7 +238,7 @@
     var basicBot = {
         version: "2.8.10",
         status: false,
-        name: "Kid Patrol",
+        name: "Bass Bot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/TrapKing/basicBot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
@@ -248,7 +248,7 @@
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "Kid Patrol",
+            botName: "Bass Bot",
             language: "english",
             chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
             roomLock: false, // Requires an extension to re-load the script
@@ -273,16 +273,16 @@
             voteSkipLimit: 7,
             historySkip: true,
             timeGuard: true,
-            maximumSongLength: 7,
+            maximumSongLength: 6,
             autodisable: true,
             commandCooldown: 30,
             usercommandsEnabled: true,
             skipPosition: 2,
             skipReasons: [
                 ["theme", "This song does not fit the room theme. "],
-                ["op", "This song is on the OP list. "],
-                ["history", "This song is in the history. "],
-                ["mix", "You played a mix, which is against the rules. "],
+                ["op", "This song is on the OP list. Op List: https://goo.gl/JBJS4t "],
+                ["history", "This song is in the history."],
+                ["mix", "You played a song over 7 minutes. "],
                 ["sound", "The song you played had bad sound quality or no sound. "],
                 ["nsfw", "The song you contained was NSFW (image or sound). "],
                 ["unavailable", "The song you played was not available for some users. "]
@@ -291,13 +291,13 @@
             afkRankCheck: "ambassador",
             motdEnabled: false,
             motdInterval: 5,
-            motd: "Temporary Message of the Day",
+            motd: "Where you get the Bass ",
             filterChat: true,
             etaRestriction: false,
             welcome: true,
             opLink: "https://goo.gl/JBJS4t",
             rulesLink: null,
-            themeLink: null,
+            themeLink: "Your Alloud to play, Dubstep, House, Trap, Bass Music, Chill, Glitch Hop, and Rap.",
             fbLink: null,
             youtubeLink: "https://www.youtube.com/c/KidBass",
             website: null,
@@ -307,8 +307,8 @@
             commandLiteral: "!",
             blacklists: {
                 NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/NSFWlist.json",
-                OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/OPlist.json",
-                BANNED: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/BANNEDlist.json"
+                OP: "https://goo.gl/JBJS4t",
+                BANNED: "https://goo.gl/JBJS4t"
             }
         },
         room: {
