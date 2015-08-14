@@ -297,7 +297,7 @@
             welcome: true,
             opLink: "https://goo.gl/JBJS4t",
             rulesLink: null,
-            themeLink: "Your Alloud to play, Dubstep, House, Trap, Bass Music, Chill, Glitch Hop, and Rap.",
+            themeLink:  "Dubstep, House, Trap, Bass Music, Chill, Glitch Hop, and Rap.",
             fbLink: null,
             youtubeLink: "https://www.youtube.com/c/KidBass",
             website: null,
